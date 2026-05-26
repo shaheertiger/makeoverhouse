@@ -222,10 +222,13 @@ img { display: block; max-width: 100%; height: auto; }
 .services__hd-copy p { color: var(--w40); font-size: 17px; font-weight: 300; line-height: 1.7; }
 
 /* Service tabs */
-.services__tabs { display: flex; gap: 4px; margin-bottom: 64px; border-bottom: 1px solid var(--w05); }
-.services__tab { padding: 12px 28px; font-size: 9px; font-weight: 700; letter-spacing: 0.4em; text-transform: uppercase; color: var(--w30); border-bottom: 2px solid transparent; margin-bottom: -1px; transition: color 0.3s, border-color 0.3s; cursor: pointer; background: none; border-top: 0; border-left: 0; border-right: 0; }
+.services__tabs { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 64px; border-bottom: 1px solid var(--w05); }
+.services__tab { padding: 12px 24px; font-size: 9px; font-weight: 700; letter-spacing: 0.4em; text-transform: uppercase; color: var(--w30); border-bottom: 2px solid transparent; margin-bottom: -1px; transition: color 0.3s, border-color 0.3s; cursor: pointer; background: none; border-top: 0; border-left: 0; border-right: 0; white-space: nowrap; }
 .services__tab:hover { color: var(--w60); }
 .services__tab.active { color: var(--gold); border-bottom-color: var(--gold); }
+
+/* Category sub-label within a services list */
+.svc__category-label { font-size: 9px; font-weight: 700; letter-spacing: 0.4em; text-transform: uppercase; color: rgba(201,168,76,0.5); margin-bottom: 48px; padding-bottom: 12px; border-bottom: 1px solid var(--w05); }
 
 .services__panel { display: none; }
 .services__panel.active { display: block; }

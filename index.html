@@ -313,77 +313,60 @@
 
     <!-- Service Tabs -->
     <div class="services__tabs reveal" role="tablist" aria-label="Service categories">
-      <button class="services__tab active" id="tab-salon" role="tab" aria-selected="true" aria-controls="panel-salon" onclick="switchTab('salon')">
-        Salon
-      </button>
-      <button class="services__tab" id="tab-barber" role="tab" aria-selected="false" aria-controls="panel-barber" onclick="switchTab('barber')">
-        Barber
-      </button>
+      <button class="services__tab active" id="tab-packages" role="tab" aria-selected="true"  aria-controls="panel-packages" onclick="switchTab('packages')">Packages</button>
+      <button class="services__tab"        id="tab-hair"     role="tab" aria-selected="false" aria-controls="panel-hair"     onclick="switchTab('hair')">Hair</button>
+      <button class="services__tab"        id="tab-facials"  role="tab" aria-selected="false" aria-controls="panel-facials"  onclick="switchTab('facials')">Facials &amp; Skin</button>
+      <button class="services__tab"        id="tab-waxing"   role="tab" aria-selected="false" aria-controls="panel-waxing"   onclick="switchTab('waxing')">Waxing</button>
     </div>
 
-    <!-- Salon Panel -->
-    <div class="services__panel active" id="panel-salon" role="tabpanel" aria-labelledby="tab-salon">
+    <!-- ── Packages Panel ── -->
+    <div class="services__panel active" id="panel-packages" role="tabpanel" aria-labelledby="tab-packages">
       <div class="services__cols">
         <div class="services__list">
 
           <article class="svc reveal d1">
             <div class="svc__top">
-              <div class="svc__name-wrap">
-                <span class="svc__bar" aria-hidden="true"></span>
-                <h3 class="svc__name">Cut &amp; Style</h3>
-              </div>
-              <span class="svc__price">from $55</span>
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">King Cut</h3></div>
+              <span class="svc__price">$70</span>
             </div>
-            <p class="svc__desc">A precision cut tailored to your face shape, finished with a professional blow-dry and style.</p>
-            <div class="svc__foot">
-              <span class="svc__time">60 min</span>
-              <span class="svc__dash" aria-hidden="true"></span>
-            </div>
+            <p class="svc__desc">Haircut, Head Massage, Face Scrubbing, Shampoo &amp; Styling.</p>
+            <div class="svc__foot"><span class="svc__time">50 min</span><span class="svc__dash" aria-hidden="true"></span></div>
           </article>
 
           <article class="svc reveal d2">
             <div class="svc__top">
-              <div class="svc__name-wrap">
-                <span class="svc__bar" aria-hidden="true"></span>
-                <h3 class="svc__name">Blowout &amp; Finish</h3>
-              </div>
-              <span class="svc__price">from $40</span>
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Queens Cut</h3></div>
+              <span class="svc__price">$130</span>
             </div>
-            <p class="svc__desc">A sleek, voluminous blowout that lasts. Perfect for any occasion or a mid-week refresh.</p>
-            <div class="svc__foot">
-              <span class="svc__time">45 min</span>
-              <span class="svc__dash" aria-hidden="true"></span>
-            </div>
+            <p class="svc__desc">Head Wash, Haircut, Head &amp; Upper Body Massage, Hair Spa, Face Scrubbing.</p>
+            <div class="svc__foot"><span class="svc__time">1 h 30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
           </article>
 
           <article class="svc reveal d3">
             <div class="svc__top">
-              <div class="svc__name-wrap">
-                <span class="svc__bar" aria-hidden="true"></span>
-                <h3 class="svc__name">Colour &amp; Toning</h3>
-              </div>
-              <span class="svc__price">from $90</span>
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Women's Cut, Repair &amp; Style</h3></div>
+              <span class="svc__price">$140</span>
             </div>
-            <p class="svc__desc">Full colour, root touch-up or toning using premium professional colour for vibrant, long-lasting results.</p>
-            <div class="svc__foot">
-              <span class="svc__time">90 min</span>
-              <span class="svc__dash" aria-hidden="true"></span>
-            </div>
+            <p class="svc__desc">Women's Haircut, Hair Repair Treatment, Blowout &amp; Style.</p>
+            <div class="svc__foot"><span class="svc__time">30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
           </article>
 
           <article class="svc reveal d4">
             <div class="svc__top">
-              <div class="svc__name-wrap">
-                <span class="svc__bar" aria-hidden="true"></span>
-                <h3 class="svc__name">Highlights &amp; Balayage</h3>
-              </div>
-              <span class="svc__price">from $135</span>
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Women's Cut, Colour &amp; Blowout</h3></div>
+              <span class="svc__price">$190</span>
             </div>
-            <p class="svc__desc">Sun-kissed dimension painted to flatter your complexion. Foils, balayage or a custom blend.</p>
-            <div class="svc__foot">
-              <span class="svc__time">120 min</span>
-              <span class="svc__dash" aria-hidden="true"></span>
+            <p class="svc__desc">Women's Haircut, Blowout &amp; Single-Processed Colour or Partial Highlights.</p>
+            <div class="svc__foot"><span class="svc__time">30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d5">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Women's Full Highlight Package</h3></div>
+              <span class="svc__price">$325</span>
             </div>
+            <p class="svc__desc">Women's Haircut, Hair Repair Treatment, Blowout &amp; Full Highlights.</p>
+            <div class="svc__foot"><span class="svc__time">30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
           </article>
 
         </div>
@@ -392,195 +375,391 @@
 
           <article class="svc reveal d1">
             <div class="svc__top">
-              <div class="svc__name-wrap">
-                <span class="svc__bar" aria-hidden="true"></span>
-                <h3 class="svc__name">Keratin Treatment</h3>
-              </div>
-              <span class="svc__price">from $200</span>
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Men's Ultimate Grooming</h3></div>
+              <span class="svc__price">$300</span>
             </div>
-            <p class="svc__desc">Eliminate frizz and add intense shine. Smooth, silky results that last for weeks.</p>
-            <div class="svc__foot">
-              <span class="svc__time">180 min</span>
-              <span class="svc__dash" aria-hidden="true"></span>
-            </div>
+            <p class="svc__desc">Haircut, Whitening O2 Facial, Head &amp; Upper Body Massage, Hair Spa with Steam &amp; Charcoal Mask.</p>
+            <div class="svc__foot"><span class="svc__time">2 h 30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
           </article>
 
           <article class="svc reveal d2">
             <div class="svc__top">
-              <div class="svc__name-wrap">
-                <span class="svc__bar" aria-hidden="true"></span>
-                <h3 class="svc__name">Lash Extensions</h3>
-              </div>
-              <span class="svc__price">from $100</span>
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Men's Signature Experience</h3></div>
+              <span class="svc__price">$250</span>
             </div>
-            <p class="svc__desc">Classic, hybrid or volume lashes meticulously applied for a glamorous, low-maintenance look.</p>
-            <div class="svc__foot">
-              <span class="svc__time">90 min</span>
-              <span class="svc__dash" aria-hidden="true"></span>
-            </div>
+            <p class="svc__desc">Cut, Beard/Shave, Head &amp; Upper Body Massage, Hair Spa, O3 Facial &amp; Blackhead Mask.</p>
+            <div class="svc__foot"><span class="svc__time">2 h</span><span class="svc__dash" aria-hidden="true"></span></div>
           </article>
 
           <article class="svc reveal d3">
             <div class="svc__top">
-              <div class="svc__name-wrap">
-                <span class="svc__bar" aria-hidden="true"></span>
-                <h3 class="svc__name">Brow Design</h3>
-              </div>
-              <span class="svc__price">from $20</span>
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Men's Repair &amp; Cleanse</h3></div>
+              <span class="svc__price">$200</span>
             </div>
-            <p class="svc__desc">Threading, waxing or lamination — perfectly sculpted brows that frame your face.</p>
-            <div class="svc__foot">
-              <span class="svc__time">20 min</span>
-              <span class="svc__dash" aria-hidden="true"></span>
-            </div>
+            <p class="svc__desc">Cut, Beard/Shave, Hair Repair Treatment &amp; Cleansing.</p>
+            <div class="svc__foot"><span class="svc__time">1 h 30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
           </article>
 
           <article class="svc reveal d4">
             <div class="svc__top">
-              <div class="svc__name-wrap">
-                <span class="svc__bar" aria-hidden="true"></span>
-                <h3 class="svc__name">Bridal Package</h3>
-              </div>
-              <span class="svc__price">Custom quote</span>
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Men's Facial &amp; Full Body Wax</h3></div>
+              <span class="svc__price">$300</span>
             </div>
-            <p class="svc__desc">Full bridal hair and beauty experience. Trials, day-of styling, and full wedding party packages available.</p>
-            <div class="svc__foot">
-              <span class="svc__time">Call for details</span>
-              <span class="svc__dash" aria-hidden="true"></span>
-            </div>
+            <p class="svc__desc">Ozone Facial &amp; Full Body Wax — the complete skin and grooming reset.</p>
+            <div class="svc__foot"><span class="svc__time">1 h 30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
           </article>
 
         </div>
       </div>
     </div>
 
-    <!-- Barber Panel -->
-    <div class="services__panel" id="panel-barber" role="tabpanel" aria-labelledby="tab-barber">
+    <!-- ── Hair Panel ── -->
+    <div class="services__panel" id="panel-hair" role="tabpanel" aria-labelledby="tab-hair">
       <div class="services__cols">
+
+        <!-- Women's Hair -->
         <div class="services__list">
+          <p class="svc__category-label">Women's</p>
 
           <article class="svc reveal d1">
             <div class="svc__top">
-              <div class="svc__name-wrap">
-                <span class="svc__bar" aria-hidden="true"></span>
-                <h3 class="svc__name">Men's Cut</h3>
-              </div>
-              <span class="svc__price">from $30</span>
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Haircut with Style Dry</h3></div>
+              <span class="svc__price">$60</span>
             </div>
-            <p class="svc__desc">A clean, precise cut styled to your preference. Classic, modern or textured — we've got you covered.</p>
-            <div class="svc__foot">
-              <span class="svc__time">30 min</span>
-              <span class="svc__dash" aria-hidden="true"></span>
-            </div>
+            <div class="svc__foot"><span class="svc__time">50 min</span><span class="svc__dash" aria-hidden="true"></span></div>
           </article>
 
           <article class="svc reveal d2">
             <div class="svc__top">
-              <div class="svc__name-wrap">
-                <span class="svc__bar" aria-hidden="true"></span>
-                <h3 class="svc__name">Skin Fade</h3>
-              </div>
-              <span class="svc__price">from $35</span>
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Haircut with Blow Dry</h3></div>
+              <span class="svc__price">$45</span>
             </div>
-            <p class="svc__desc">A flawless gradient fade — from skin to your preferred length, blended to perfection.</p>
-            <div class="svc__foot">
-              <span class="svc__time">40 min</span>
-              <span class="svc__dash" aria-hidden="true"></span>
-            </div>
+            <div class="svc__foot"><span class="svc__time">40 min</span><span class="svc__dash" aria-hidden="true"></span></div>
           </article>
 
           <article class="svc reveal d3">
             <div class="svc__top">
-              <div class="svc__name-wrap">
-                <span class="svc__bar" aria-hidden="true"></span>
-                <h3 class="svc__name">Beard Sculpt</h3>
-              </div>
-              <span class="svc__price">from $22</span>
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Colour, Highlights &amp; Ombré</h3></div>
+              <span class="svc__price">from $80</span>
             </div>
-            <p class="svc__desc">Shape, trim and define your beard for a clean, groomed finish that complements your look.</p>
-            <div class="svc__foot">
-              <span class="svc__time">20 min</span>
-              <span class="svc__dash" aria-hidden="true"></span>
-            </div>
+            <div class="svc__foot"><span class="svc__time">2 h</span><span class="svc__dash" aria-hidden="true"></span></div>
           </article>
 
           <article class="svc reveal d4">
             <div class="svc__top">
-              <div class="svc__name-wrap">
-                <span class="svc__bar" aria-hidden="true"></span>
-                <h3 class="svc__name">Cut + Beard Combo</h3>
-              </div>
-              <span class="svc__price">from $50</span>
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Root Touch</h3></div>
+              <span class="svc__price">Price varies</span>
             </div>
-            <p class="svc__desc">The full treatment — a fresh cut and a sculpted beard for the complete look.</p>
-            <div class="svc__foot">
-              <span class="svc__time">55 min</span>
-              <span class="svc__dash" aria-hidden="true"></span>
+            <div class="svc__foot"><span class="svc__time">30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d5">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Hair Spa</h3></div>
+              <span class="svc__price">from $40</span>
             </div>
+            <div class="svc__foot"><span class="svc__time">40 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d6">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Hair Repair Treatment</h3></div>
+              <span class="svc__price">$120</span>
+            </div>
+            <p class="svc__desc">Hair toning, head &amp; upper body massage, shampoo, hair mask &amp; steam.</p>
+            <div class="svc__foot"><span class="svc__time">1 h</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d1">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Keratin Straightening</h3></div>
+              <span class="svc__price">from $220</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">4 h</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d2">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Rebonding</h3></div>
+              <span class="svc__price">from $220</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">4 h</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d3">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Perm</h3></div>
+              <span class="svc__price">Price varies</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
           </article>
 
         </div>
 
+        <!-- Men's Hair -->
         <div class="services__list">
+          <p class="svc__category-label">Men's</p>
 
           <article class="svc reveal d1">
             <div class="svc__top">
-              <div class="svc__name-wrap">
-                <span class="svc__bar" aria-hidden="true"></span>
-                <h3 class="svc__name">Kids Cut</h3>
-              </div>
-              <span class="svc__price">from $22</span>
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Men's Haircut</h3></div>
+              <span class="svc__price">$25</span>
             </div>
-            <p class="svc__desc">A patient, precision cut for boys of all ages. Clean and comfortable every time.</p>
-            <div class="svc__foot">
-              <span class="svc__time">25 min</span>
-              <span class="svc__dash" aria-hidden="true"></span>
-            </div>
+            <div class="svc__foot"><span class="svc__time">20 min</span><span class="svc__dash" aria-hidden="true"></span></div>
           </article>
 
           <article class="svc reveal d2">
             <div class="svc__top">
-              <div class="svc__name-wrap">
-                <span class="svc__bar" aria-hidden="true"></span>
-                <h3 class="svc__name">Senior Cut</h3>
-              </div>
-              <span class="svc__price">from $25</span>
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Men's Skin Fade</h3></div>
+              <span class="svc__price">$30</span>
             </div>
-            <p class="svc__desc">A respectful, attentive cut with extra care and attention for our senior clients.</p>
-            <div class="svc__foot">
-              <span class="svc__time">30 min</span>
-              <span class="svc__dash" aria-hidden="true"></span>
-            </div>
+            <div class="svc__foot"><span class="svc__time">20 min</span><span class="svc__dash" aria-hidden="true"></span></div>
           </article>
 
           <article class="svc reveal d3">
             <div class="svc__top">
-              <div class="svc__name-wrap">
-                <span class="svc__bar" aria-hidden="true"></span>
-                <h3 class="svc__name">Line-Up &amp; Edge</h3>
-              </div>
-              <span class="svc__price">from $15</span>
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Haircut &amp; Beard</h3></div>
+              <span class="svc__price">$45</span>
             </div>
-            <p class="svc__desc">Razor-sharp edges and clean hairline definition to keep your look fresh between cuts.</p>
-            <div class="svc__foot">
-              <span class="svc__time">15 min</span>
-              <span class="svc__dash" aria-hidden="true"></span>
-            </div>
+            <div class="svc__foot"><span class="svc__time">30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
           </article>
 
           <article class="svc reveal d4">
             <div class="svc__top">
-              <div class="svc__name-wrap">
-                <span class="svc__bar" aria-hidden="true"></span>
-                <h3 class="svc__name">Hot Towel Shave</h3>
-              </div>
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Beard</h3></div>
+              <span class="svc__price">$20</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">15 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d5">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Men's Cut &amp; Colour</h3></div>
+              <span class="svc__price">Price varies</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">40 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Facials & Skin Panel ── -->
+    <div class="services__panel" id="panel-facials" role="tabpanel" aria-labelledby="tab-facials">
+      <div class="services__cols">
+
+        <!-- Facials -->
+        <div class="services__list">
+          <p class="svc__category-label">Facials &amp; Skin</p>
+
+          <article class="svc reveal d1">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Ozone Facial</h3></div>
+              <span class="svc__price">$100</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">1 h</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d2">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Glowing Facial Special</h3></div>
+              <span class="svc__price">$60</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">1 h</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d3">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Facial — Women</h3></div>
+              <span class="svc__price">from $50</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">45 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d4">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Facial — Men</h3></div>
+              <span class="svc__price">from $45</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d5">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Cleansing</h3></div>
               <span class="svc__price">from $35</span>
             </div>
-            <p class="svc__desc">The classic barber experience — a hot towel, premium shaving cream and a straight razor finish.</p>
-            <div class="svc__foot">
-              <span class="svc__time">35 min</span>
-              <span class="svc__dash" aria-hidden="true"></span>
+            <div class="svc__foot"><span class="svc__time">45 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d6">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Mole &amp; Skin Tag Removal</h3></div>
+              <span class="svc__price">Price varies</span>
             </div>
+            <p class="svc__desc">Face &amp; body. Consult in-salon for personalised pricing.</p>
+            <div class="svc__foot"><span class="svc__time">30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+        </div>
+
+        <!-- Massage -->
+        <div class="services__list">
+          <p class="svc__category-label">Massage &amp; Wellness</p>
+
+          <article class="svc reveal d1">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Head &amp; Upper Body Massage</h3></div>
+              <span class="svc__price">$45</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d2">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Body Massage</h3></div>
+              <span class="svc__price">$100</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Waxing Panel ── -->
+    <div class="services__panel" id="panel-waxing" role="tabpanel" aria-labelledby="tab-waxing">
+      <div class="services__cols">
+
+        <!-- Women's Waxing -->
+        <div class="services__list">
+          <p class="svc__category-label">Women's</p>
+
+          <article class="svc reveal d1">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Eyebrows</h3></div>
+              <span class="svc__price">$7</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">10 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d2">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Upper Lips</h3></div>
+              <span class="svc__price">$5</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d3">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Chin &amp; Neck</h3></div>
+              <span class="svc__price">$8</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">15 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d4">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Cheek Sides</h3></div>
+              <span class="svc__price">$6</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">15 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d5">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Full Face Wax</h3></div>
+              <span class="svc__price">$20</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">15 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d6">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Underarms</h3></div>
+              <span class="svc__price">$10</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">15 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d1">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Half Arms</h3></div>
+              <span class="svc__price">$15</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">15 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d2">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Full Arms</h3></div>
+              <span class="svc__price">$25</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">20 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d3">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Half Legs</h3></div>
+              <span class="svc__price">$25</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">20 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d4">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Full Legs</h3></div>
+              <span class="svc__price">$45</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d5">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Brazilian</h3></div>
+              <span class="svc__price">$35</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d6">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Full Body Wax (No Face)</h3></div>
+              <span class="svc__price">$130</span>
+            </div>
+            <p class="svc__desc">Includes Brazilian.</p>
+            <div class="svc__foot"><span class="svc__time">1 h</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+        </div>
+
+        <!-- Men's Waxing -->
+        <div class="services__list">
+          <p class="svc__category-label">Men's</p>
+
+          <article class="svc reveal d1">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Manzillian</h3></div>
+              <span class="svc__price">$60</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d2">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Back &amp; Chest Wax</h3></div>
+              <span class="svc__price">$120</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="svc reveal d3">
+            <div class="svc__top">
+              <div class="svc__name-wrap"><span class="svc__bar" aria-hidden="true"></span><h3 class="svc__name">Men's Full Body Wax</h3></div>
+              <span class="svc__price">$200</span>
+            </div>
+            <div class="svc__foot"><span class="svc__time">30 min</span><span class="svc__dash" aria-hidden="true"></span></div>
           </article>
 
         </div>
@@ -589,7 +768,7 @@
 
     <div class="services__cta reveal">
       <p style="color: var(--w30); font-size: 13px; margin-bottom: 24px; font-weight: 300;">
-        Prices may vary. Call us for a personalised quote — walk-ins always welcome.
+        Some prices vary — call or walk in for a personalised quote.
       </p>
       <a href="tel:+14167495201" class="btn-luxury">
         <span>Call (416) 749-5201</span>
@@ -971,12 +1150,13 @@
     });
     document.querySelectorAll('.services__panel').forEach(p => p.classList.remove('active'));
 
-    document.getElementById('tab-' + tab).classList.add('active');
-    document.getElementById('tab-' + tab).setAttribute('aria-selected', 'true');
-    document.getElementById('panel-' + tab).classList.add('active');
+    const btn   = document.getElementById('tab-' + tab);
+    const panel = document.getElementById('panel-' + tab);
+    btn.classList.add('active');
+    btn.setAttribute('aria-selected', 'true');
+    panel.classList.add('active');
 
-    /* Re-trigger scroll reveals in newly shown panel */
-    document.querySelectorAll('#panel-' + tab + ' .reveal').forEach(el => {
+    panel.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => {
       el.classList.remove('in');
       setTimeout(() => revealObserver.observe(el), 10);
     });
